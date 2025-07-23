@@ -1,0 +1,88 @@
+# Byte-compiled / optimized / DLL files
+*.py[cod]
+*.so
+*.egg
+*.egg-info
+*.pyd
+
+# C extensions
+*.c
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.toml
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environments
+.env
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Data files
+*.csv
+*.json
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.data
+*.dat
+*.db
+*.feather
+*.parquet
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# Plot outputs
+*.png
+*.jpg
+*.jpeg
+*.pdf
+*.svg
