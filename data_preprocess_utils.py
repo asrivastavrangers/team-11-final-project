@@ -158,3 +158,12 @@ def plot_feature_distribution(features, composer):
         plt.title(f"{composer} - {name}")
     plt.tight_layout()
     plt.show()
+
+def print_split_stats(dataset, split_set, name):
+    """Print class distribution statistics for a dataset split"""
+    labels = [dataset.samples[i][1] for i in split_set.indices]
+    counts = torch.bincount(torch.tensor(labels))
+    
+    print(f"\n{name.upper()} SET CLASS DISTRIBUTION:")
+    for i, composer in enumerate(dataset.composers):
+        print(f"- {composer.capitalize()}: {counts[i]} samples")
